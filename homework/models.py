@@ -3,7 +3,6 @@ import dataclasses
 
 @dataclasses.dataclass
 class Product:
-
     name: str
     price: float
     description: str
@@ -31,7 +30,6 @@ class Cart:
     products: dict[Product, int]
 
     def __init__(self):
-        # По-умолчанию корзина пустая
         self.products = {}
 
     def add_product(self, product: Product, buy_count=1):

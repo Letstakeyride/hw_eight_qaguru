@@ -1,6 +1,3 @@
-"""
-Протестируйте классы из модуля homework/models.py
-"""
 import pytest
 from homework.models import Product, Cart
 
@@ -40,12 +37,6 @@ class TestProducts:
 
 
 class TestCart:
-    """
-    TODO Напишите тесты на методы класса Cart
-        На каждый метод у вас должен получиться отдельный тест
-        На некоторые методы у вас может быть несколько тестов.
-        Например, негативные тесты, ожидающие ошибку (используйте pytest.raises, чтобы проверить это)
-    """
 
     def test_product_add(self, cart, product):
         assert len(cart.products) == 0, 'Проверка на пустую корзину'
