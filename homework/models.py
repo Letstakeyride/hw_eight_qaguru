@@ -3,9 +3,7 @@ import dataclasses
 
 @dataclasses.dataclass
 class Product:
-    """
-    Класс продукта
-    """
+
     name: str
     price: float
     description: str
