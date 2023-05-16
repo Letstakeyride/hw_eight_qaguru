@@ -16,10 +16,6 @@ def cart():
 
 
 class TestProducts:
-    """
-    Тестовый класс - это способ группировки ваших тестов по какой-то тематике
-    Например, текущий класс группирует тесты на класс Product
-    """
 
     def test_product_check_quantity(self, product):
         # TODO напишите проверки на метод check_quantity
