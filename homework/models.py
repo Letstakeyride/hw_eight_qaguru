@@ -1,6 +1,3 @@
-from dataclasses import dataclass
-
-
 class Product:
     """
     Класс продукта

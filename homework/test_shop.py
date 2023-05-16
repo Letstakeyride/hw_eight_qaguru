@@ -87,4 +87,4 @@ class TestCart:
         assert len(cart.products) == 0, 'Проверка покупки'
         cart.add_product(product, 1001)
         with pytest.raises(ValueError):
-            assert cart.buy(), "Провера Valueerror"
+            assert cart.buy(), "Провера Value error"
